@@ -1,13 +1,20 @@
  body { color: #333333;
  	font-family: "Times New Roman", Times, serif;
  	width: 60%;
+ 	text-align: center;
+ 	border-width: 15px;
+ 	border-style: solid;
+ 	border-color: #c9c9c9;
+ 	padding: 2rem 3rem;
+ 	box-sizing: border-box;
+ 	min-width: 600px;
 
 }
 h1, h2, h3, { font-family: Arial, Helvetica, sans-serif;
 				color: #58b4f5;
 				
 }
-h1{ font-size:3.5rem ;
+h1 { font-size:3.5rem ;
 
 }
 h2 { font-size: 2.25rem;
@@ -19,5 +26,12 @@ h3 { text-transform: uppercase;
 }
 body { border: 15px; color: ;
 		width: 60%;
+
+}
+div.class { font-style: italic;
+	  		color: #F2AA52;
+	  		line-height: 1.5;
+}
+ul { list-style-type: square;
 
 }
